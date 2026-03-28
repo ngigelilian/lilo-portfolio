@@ -24,7 +24,7 @@ function Footer() {
 
         <div className="footer-contact">
           <h4>Get In Touch</h4>
-          <p><FaEnvelope /> your@email.com</p>
+          <p><FaEnvelope /> lilongige.online@gmail.com</p>
           <div className="footer-socials">
             <a href="https://github.com/ngigelilian" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/lilian-ngige-0958b6233" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><FaLinkedin /></a>
@@ -37,7 +37,6 @@ function Footer() {
 
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} Ngige Lilian Wanjiru. All rights reserved.</p>
-        <p>Designed & Built with ❤️ using React & Vite</p>
       </div>
     </footer>
   )
