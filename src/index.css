@@ -1037,3 +1037,117 @@ footer {
     padding: 80px 24px;
   }
 }
+
+/* RESPONSIVE - MOBILE */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  nav {
+    padding: 20px 24px;
+  }
+
+  nav ul {
+    gap: 16px;
+  }
+
+  nav ul li a {
+    font-size: 0.85rem;
+  }
+
+  /* HERO */
+  #hero {
+    flex-direction: column;
+    padding: 0 24px;
+    margin-top: 100px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-name {
+    font-size: 2rem;
+  }
+
+  .hero-title {
+    font-size: 1.1rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 260px;
+    height: 260px;
+  }
+
+  /* ABOUT */
+  #about {
+    padding: 80px 24px;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS */
+  #skills {
+    padding: 80px 24px;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* EXPERIENCE */
+  #experience {
+    padding: 80px 24px;
+  }
+
+  /* PROJECTS */
+  #projects {
+    padding: 80px 24px;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* EDUCATION */
+  #education {
+    padding: 80px 24px;
+  }
+
+  .education-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* CONTACT */
+  #contact {
+    padding: 80px 24px;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 60px 24px 30px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* SECTION TITLE */
+  .section-title {
+    font-size: 1.6rem;
+  }
+}
