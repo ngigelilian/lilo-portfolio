@@ -6,7 +6,7 @@ function Projects() {
       description: "A personal portfolio website built with React and Vite showcasing my skills, experience, and projects.",
       tech: ["React", "CSS", "Vite"],
       color: "#7c3aed",
-      link: "#"
+      link: "https://vercel.com/ngigelilians-projects/lilo-portfolio"
     },
     {
       title: "EcoHealth Sentinel",
