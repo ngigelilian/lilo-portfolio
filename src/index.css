@@ -861,6 +861,12 @@ footer {
   background-color: #0f0f1a;
 }
 
+#contact .section-title {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 50px;
+}
+
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1151,3 +1157,5 @@ footer {
     font-size: 1.6rem;
   }
 }
+
+git add .
